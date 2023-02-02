@@ -1,0 +1,50 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 200, 28);
+    font-family: cursive;
+    text-align: center;
+}
+#score{
+    text-align: right;
+}
+#form{
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.407);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#input{
+    display: block;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: solid green;
+    color: green;
+}
+#input::placeholder{
+    color: lightgray;
+    font-family:cursive;
+}
+
+#btn{
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    margin: 20px 0;
+    border-radius: 5px;
+
+}
