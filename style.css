@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(85, 200, 28);
+    background-color:#FBF1D3;
     font-family: cursive;
     text-align: center;
 }
@@ -15,7 +15,7 @@ body{
     text-align: right;
 }
 #form{
-    background-color: antiquewhite;
+    background-color: #FADA9D;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.407);
     border-radius: 10px;
@@ -28,8 +28,8 @@ body{
     width: 100%;
     text-align: center;
     padding: 10px;
-    border: solid green;
-    color: green;
+    border: solid #C780FA;
+    color: #C780FA;
 }
 #input::placeholder{
     color: lightgray;
@@ -37,7 +37,7 @@ body{
 }
 
 #btn{
-    background-color: green;
+    background-color: #d261ff;
     width: 100%;
     padding: 10px;
     border: none;
